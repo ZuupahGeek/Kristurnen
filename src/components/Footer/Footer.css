@@ -1,0 +1,6 @@
+.footer-area {
+    height: 4rem;
+    border-top: 3px solid #3f363667;
+    display: flex;
+    justify-content: center;
+}
