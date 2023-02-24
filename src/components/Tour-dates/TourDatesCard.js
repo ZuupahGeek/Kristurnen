@@ -30,13 +30,13 @@ function TourList() {
 
   ]
   const listItems = data.map(
-      (element) => {
+      (element, i) => {
           return (
-            <div className='card'>
+            <div className='card' key={i}>
                 <div className='card-info'>
                     <h3>{element.Date}</h3>
                     <p>{element.City}</p>
-                    <a href={element.TicketLink}>Köp biljetter här!</a>
+                    <div className='card-link'><a href={element.TicketLink}>Köp biljetter här!</a></div>
                 </div>
             </div>
               
