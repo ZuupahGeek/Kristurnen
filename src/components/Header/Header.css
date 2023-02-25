@@ -1,13 +1,21 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 599px) {
     .header {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         padding-bottom: 2rem;
         
     }
     .header img {
         width: 100%;
+    }
+    .header-component h3 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 23rem;
+        margin-bottom: 2rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -22,12 +30,20 @@
     .header img {
         width: 100%;
     }
+    .header-component h3 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 30rem;
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .header {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         padding-bottom: 2rem;
         
@@ -35,12 +51,20 @@
     .header img {
         width: 100%;
     }
+    .header-component h3 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 30rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .header {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         padding-bottom: 2rem;
         
@@ -48,18 +72,34 @@
     .header img {
         max-width: 100%;
     }
+    .header-component h3 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 35rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .header {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         padding-bottom: 2rem;
         
     }
     .header img {
         width: 60rem;
+    }
+    .header-component h3 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 40rem;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
     }
 }
 
