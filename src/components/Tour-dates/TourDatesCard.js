@@ -76,10 +76,16 @@ function TourList() {
         "TicketLink": "https://billetto.se/e/kris-linkoping-tickets-803008"
     },
     {
+        "Date": "25 oktober 2023",
+        "City": "Malmö",
+        "TicketLink": "https://billetto.se/e/kris-malmo-biljetter-817516"
+    },
+    {
         "Date": "26 oktober 2023",
         "City": "Göteborg",
         "TicketLink": "https://billetto.se/e/kris-goteborg-tickets-803009"
     },
+    
 
 
 
