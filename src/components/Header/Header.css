@@ -1,3 +1,8 @@
+span {
+    color: goldenrod;
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 599px) {
     .header {
@@ -17,6 +22,15 @@
         margin-bottom: 2rem;
         font-size: 0.7rem;
     }
+    .header-component h2 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 23rem;
+        margin-bottom: 2rem;
+        /* font-size: 0.7rem; */
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -37,6 +51,14 @@
         width: 30rem;
         margin-bottom: 2rem;
         font-size: 0.9rem;
+    }
+    .header-component h2 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 30rem;
+        margin-bottom: 2rem;
+        /* font-size: 0.7rem; */
     }
 }
 
@@ -59,6 +81,14 @@
         margin-bottom: 2rem;
         font-size: 1rem;
     }
+    .header-component h2 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 30rem;
+        margin-bottom: 2rem;
+        /* font-size: 0.7rem; */
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -80,6 +110,14 @@
         margin-bottom: 2rem;
         font-size: 1rem;
     }
+    .header-component h2 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 35rem;
+        margin-bottom: 2rem;
+        /* font-size: 0.7rem; */
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -100,6 +138,14 @@
         width: 40rem;
         margin-bottom: 2rem;
         font-size: 1.1rem;
+    }
+    .header-component h2 {
+        margin: auto;
+        color: grey;
+        text-align: center;
+        width: 40rem;
+        margin-bottom: 2rem;
+        /* font-size: 0.7rem; */
     }
 }
 
