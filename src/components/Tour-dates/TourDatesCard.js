@@ -31,7 +31,7 @@ function TourList() {
         "TicketLink": "https://billetto.se/e/kris-jonkoping-tickets-802994"
     },
     {
-        "Date": "9 oktober 2023",
+        "Date": "SLUTSÅLT 9 oktober 2023",
         "City": "Stockholm",
         "TicketLink": "https://billetto.se/e/kris-stockholm-tickets-802997"
     },
@@ -69,6 +69,11 @@ function TourList() {
         "Date": "19 oktober 2023",
         "City": "Sundsvall",
         "TicketLink": "https://billetto.se/e/kris-sundsvall-tickets-803007"
+    },
+    {
+        "Date": "EXTRAFÖRESTÄLLNING 20 oktober 2023",
+        "City": "Stockholm",
+        "TicketLink": "https://billetto.se/e/kris-stockholm-extraforestallning-biljetter-882425"
     },
     {
         "Date": "23 oktober 2023",
